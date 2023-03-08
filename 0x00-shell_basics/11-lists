@@ -1,0 +1,10 @@
+#!/bin/bash
+cd ..
+echo "Listing files in parent directory:"
+ls -al
+cd /boot
+echo "Listing files in /boot directory:"
+ls -al
+cd -
+echo "Listing files in current directory:"
+ls -al
