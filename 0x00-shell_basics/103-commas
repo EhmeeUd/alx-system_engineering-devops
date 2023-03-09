@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -ap1 | sort -df | sed 's/$/,/' | tr -d '\n'; echo
-
+ls -la -m -p
